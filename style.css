@@ -1,0 +1,112 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategray;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  color: white;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+#startBtn {
+  margin-bottom: 5px;
+}
+#stopBtn {
+  margin-bottom: 5px;
+}
+#gameButtonArea > button {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+}
+.hidden {
+  display: none;
+}
+#button1 {
+  background: #e79796;
+}
+#button2 {
+  background: #f5ccde;
+}
+#button3 {
+  background: #ffdf9e;
+}
+#button4 {
+  background: lightyellow;
+}
+#button5 {
+  background: #d0f0c0;
+}
+#button6 {
+  background: lightgreen;
+}
+#button7 {
+  background: #cce1f2;
+}
+#button8 {
+  background: #dedeff;
+}
+#button9 {
+  background: #e2bef1;
+}
+
+#button1:active,
+#button1.lit {
+  background: red;
+}
+#button2:active,
+#button2.lit {
+  background: #fb9aac;
+}
+#button3:active,
+#button3.lit {
+  background: orange;
+}
+#button4:active,
+#button4.lit {
+  background: yellow;
+}
+#button5:active,
+#button5.lit {
+  background: #a9ba9d;
+}
+#button6:active,
+#button6.lit {
+  background: green;
+}
+#button7:active,
+#button7.lit {
+  background: #2d82b5;
+}
+#button8:active,
+#button8.lit {
+  background: #b19cd9;
+}
+#button9:active,
+#button9.lit {
+  background: purple;
+}
+
+#countdown {
+  background-color: white;
+  margin-top: 5px;
+  color: black;
+  display: inline-flex;
+  height: 100px;
+  width: 200px;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+img {
+  visibility: hidden;
+}

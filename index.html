@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>MY SUPER COOL COLOR GAME</h1>
+    <p>
+      Welcome to the super cool color game! Repeat back the pattern by pressing
+      buttons.
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start Game
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      End Game
+    </button>
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+        onclick="guess(1)"
+      >
+        <img
+          id="img1"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+      <button
+        id="button2"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+        onclick="guess(2)"
+      >
+        <img
+          id="img2"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+      <button
+        id="button3"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+        onclick="guess(3)"
+      >
+        <img
+          id="img3"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+      <button
+        id="button4"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+        onclick="guess(4)"
+      >
+        <img
+          id="img4"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+      <button
+        id="button5"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+        onclick="guess(5)"
+      >
+        <img
+          id="img5"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+      <button
+        id="button6"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+        onclick="guess(6)"
+      >
+        <img
+          id="img6"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+      <button
+        id="button7"
+        onmousedown="startTone(7)"
+        onmouseup="stopTone()"
+        onclick="guess(7)"
+      >
+        <img
+          id="img7"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+      <button
+        id="button8"
+        onmousedown="startTone(8)"
+        onmouseup="stopTone()"
+        onclick="guess(8)"
+      >
+        <img
+          id="img8"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+      <button
+        id="button9"
+        onmousedown="startTone(9)"
+        onmouseup="stopTone()"
+        onclick="guess(9)"
+      >
+        <img
+          id="img9"
+          src="https://cdn.glitch.com/8cacf7f4-dc11-471e-a6b7-279d9445a571%2Fcloud.png?v=1614297262426"
+          alt="close"
+          width="50px"
+        />
+      </button>
+    </div>
+    <div id="countdown">
+      00:00
+    </div>
+  </body>
+</html>
